@@ -1,19 +1,21 @@
-import React from 'react';
+import React from 'react'
+import Head from './components/Head/Head'
 
 const App = () => {
   return (
     <React.Fragment>
       <div>
-        <h1>Hey</h1>
+        <Head />
       </div>
 
-      <style jsx>{`
-        div {
-          background: red;
+      <style jsx global>{`
+        * {
+          margin: 0;
+          padding: 0;
         }
       `}</style>
     </React.Fragment>
   )
 }
 
-export default App;
+export default App

@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://imraan:imower12!@test-ndprg.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret",
+    "githubClientId": "",
+    "githubSecret": ""
+  }
